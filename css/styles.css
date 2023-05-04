@@ -34,13 +34,14 @@ v .accent {
   color: #4d5ae5;
 }
 
-.site-nav .link .current {
+a.current {
   color: var(--accent-color);
 }
 
 /* contacts */
-.contact-list {
+.contact-list a {
   color: var(--title-text-color);
+  text-decoration: none;
 }
 
 /* hero */
