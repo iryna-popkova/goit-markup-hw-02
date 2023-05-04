@@ -1,0 +1,79 @@
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+}
+
+/* body style */
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+}
+
+/* logo style */
+.logo {
+  color: var(--title-text-color);
+}
+v .accent {
+  color: var(--accent-color);
+}
+
+/* for all list */
+.list {
+  list-style: none;
+}
+
+/* site-nav style */
+.site-nav,
+.link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #4d5ae5;
+}
+
+.site-nav .link .current {
+  color: var(--accent-color);
+}
+
+/* contacts */
+.contact-list {
+  color: var(--title-text-color);
+}
+
+/* hero */
+.hero-title {
+  color: #ffffff;
+}
+.hero {
+  background-color: #2e2f42;
+}
+
+/* sections */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* values */
+.title {
+  color: var(--title-text-color);
+}
+
+/* button*/
+.button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* what we are doing */
+.work-examples {
+}
+
+/* team */
+.team-title {
+  color: var(--title-text-color);
+}
+
+/* footer */
