@@ -12,7 +12,7 @@ body {
 
 /* logo style */
 .logo {
-  color: var(--title-text-color);
+  color: #2e2f42;
   text-decoration: none;
 }
 .accent {
@@ -25,9 +25,9 @@ body {
 }
 
 /* site-nav style */
-.site-nav,
-.link {
-  color: var(--title-text-color);
+.site-nav.link {
+  color: #2e2f42;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -68,15 +68,7 @@ a.current {
   color: var(--title-text-color);
 }
 
-/* button*/
-.button {
-  color: #ffffff;
-  background-color: var(--accent-color);
-}
-
 /* what we are doing */
-.work-examples {
-}
 
 /* team */
 .team-title {
@@ -91,4 +83,25 @@ a.current {
 a.footer-logo {
   color: #f4f4fd;
   text-decoration: none;
+}
+
+/* buttoms style */
+
+.button {
+  color: var(--accent-color);
+  background-color: #ffffff;
+}
+.button.order {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.button.primary {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+.button.secondary {
+  background-color: #f4f4fd;
+  color: var(--accent-color);
 }
