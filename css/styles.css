@@ -13,8 +13,9 @@ body {
 /* logo style */
 .logo {
   color: var(--title-text-color);
+  text-decoration: none;
 }
-v .accent {
+.accent {
   color: var(--accent-color);
 }
 
@@ -42,6 +43,11 @@ a.current {
 .contact-list a {
   color: var(--title-text-color);
   text-decoration: none;
+  font-style: normal;
+}
+.contact-list a:hover,
+.contact-list a:focus {
+  color: var(--accent-color);
 }
 
 /* hero */
@@ -78,3 +84,11 @@ a.current {
 }
 
 /* footer */
+.footer-style {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+a.footer-logo {
+  color: #f4f4fd;
+  text-decoration: none;
+}
