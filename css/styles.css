@@ -8,12 +8,20 @@
 body {
   color: var(--primary-text-color);
   background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
 }
 
 /* logo style */
 .logo {
   color: #2e2f42;
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .accent {
   color: var(--accent-color);
@@ -28,11 +36,14 @@ body {
 .site-nav.link {
   color: #2e2f42;
   text-decoration: none;
+  font-weight: 500;
+  font-size: 1.5;
+  line-height: 24px;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 a.current {
@@ -44,35 +55,66 @@ a.current {
   color: var(--title-text-color);
   text-decoration: none;
   font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .contact-list a:hover,
 .contact-list a:focus {
-  color: var(--accent-color);
+  color: #404bbf;
 }
 
 /* hero */
-.hero-title {
+.main-title {
   color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
 }
+
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--title-text-color);
 }
 
 /* sections */
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 /* values */
 .title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.section {
+  background-color: #e5e5e5;
 }
 
-/* what we are doing */
+.section.team {
+  background: #f4f4fd;
+}
 
+.value-list.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
 /* team */
 .team-title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
 }
 
 /* footer */
@@ -83,6 +125,12 @@ a.current {
 a.footer-logo {
   color: #f4f4fd;
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* buttoms style */
@@ -90,10 +138,19 @@ a.footer-logo {
 .button {
   color: var(--accent-color);
   background-color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
 }
 .button.order {
   color: #ffffff;
   background-color: var(--accent-color);
+}
+.button.order:hover {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .button.primary {
