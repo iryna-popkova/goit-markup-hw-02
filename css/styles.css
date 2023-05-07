@@ -10,6 +10,7 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
+  font-weight: 400;
 }
 
 /* logo style */
@@ -53,11 +54,10 @@ a.current {
 /* contacts */
 .contact-list a {
   color: var(--title-text-color);
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  text-decoration: none;
+  font-style: normal;
 }
 .contact-list a:hover,
 .contact-list a:focus {
@@ -100,11 +100,10 @@ a.current {
 }
 
 .section.team {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 
 .value-list.text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -114,6 +113,12 @@ a.current {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  text-align: center;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
   text-align: center;
 }
 
@@ -133,6 +138,11 @@ a.footer-logo {
   text-transform: uppercase;
 }
 
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+}
 /* buttoms style */
 
 .button {
