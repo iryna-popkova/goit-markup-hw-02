@@ -2,6 +2,7 @@
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
   --accent-color: #4d5ae5;
+  --additional-color: #f4f4fd;
 }
 
 /* body style */
@@ -69,7 +70,9 @@ a.current {
 .contact-list a:focus {
   color: #404bbf;
 }
-
+.contact-list {
+  font-style: normal;
+}
 /* hero */
 .main-title {
   color: #ffffff;
@@ -109,7 +112,7 @@ a.current {
 }
 
 .section.team {
-  background-color: #f4f4fd;
+  background-color: var(--additional-color);
 }
 
 .team-card {
@@ -140,7 +143,7 @@ a.current {
 /* footer */
 .footer-style {
   background-color: #2e2f42;
-  color: #f4f4fd;
+  color: var(--additional-color);
 }
 a.footer-logo {
   color: var(--accent-color);
@@ -153,11 +156,11 @@ a.footer-logo {
   text-transform: uppercase;
 }
 .footer-accent {
-  color: #f4f4fd;
+  color: var(--additional-color);
 }
 
 .footer-text {
-  color: #f4f4fd;
+  color: var(--additional-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -165,8 +168,7 @@ a.footer-logo {
 /* buttoms style */
 
 .button {
-  font-family: "Roboto" sans-serif;
-
+  font-family: "Roboto", sans-serif;
   color: var(--accent-color);
   background-color: #ffffff;
   font-weight: 500;
@@ -177,7 +179,6 @@ a.footer-logo {
   cursor: pointer;
 }
 .button.order {
-  font-family: "Roboto" sans-serif;
   color: #ffffff;
   background-color: var(--accent-color);
 }
@@ -188,13 +189,11 @@ a.footer-logo {
 }
 
 .button.primary {
-  font-family: "Roboto" sans-serif;
-  background-color: #404bbf;
-  color: #ffffff;
+  color: var(--accent-color);
+  background-color: var(--additional-color);
 }
 
 .button.secondary {
-  font-family: "Roboto" sans-serif;
   background-color: #f4f4fd;
   color: var(--accent-color);
 }
