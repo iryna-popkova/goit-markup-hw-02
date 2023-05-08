@@ -13,17 +13,17 @@ body {
 
 /* logo style */
 .logo {
-  color: var(--title-text-color);
+  color: var(--accent-color);
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .accent {
-  color: var(--accent-color);
+  color: var(--title-text-color);
 }
 
 /* for all list */
@@ -32,8 +32,12 @@ body {
   text-decoration: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
 /* site-nav style */
-.site-nav.link {
+.site-nav.list {
   color: var(--title-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -107,7 +111,10 @@ a.current {
   background-color: #f4f4fd;
 }
 
-.value-list.text {
+.team-card {
+  background: #ffffff;
+}
+.text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -135,14 +142,17 @@ a.current {
   color: #f4f4fd;
 }
 a.footer-logo {
-  color: #f4f4fd;
+  color: var(--accent-color);
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.footer-accent {
+  color: #f4f4fd;
 }
 
 .footer-text {
@@ -154,6 +164,7 @@ a.footer-logo {
 /* buttoms style */
 
 .button {
+  font-family: "Roboto" sans-serif;
   color: var(--accent-color);
   background-color: #ffffff;
   font-weight: 500;
@@ -167,7 +178,8 @@ a.footer-logo {
   color: #ffffff;
   background-color: var(--accent-color);
 }
-.button.order:hover {
+.button.order:hover,
+.button.order:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
