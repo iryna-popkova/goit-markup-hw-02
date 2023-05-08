@@ -37,13 +37,14 @@ body {
 }
 
 /* site-nav style */
-.site-nav.list {
+.site-nav.list a {
   color: var(--title-text-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .site-nav .link:hover,
@@ -57,7 +58,7 @@ a.current {
 
 /* contacts */
 .contact-list a {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
@@ -165,6 +166,7 @@ a.footer-logo {
 
 .button {
   font-family: "Roboto" sans-serif;
+
   color: var(--accent-color);
   background-color: #ffffff;
   font-weight: 500;
@@ -175,6 +177,7 @@ a.footer-logo {
   cursor: pointer;
 }
 .button.order {
+  font-family: "Roboto" sans-serif;
   color: #ffffff;
   background-color: var(--accent-color);
 }
@@ -185,11 +188,13 @@ a.footer-logo {
 }
 
 .button.primary {
+  font-family: "Roboto" sans-serif;
   background-color: #404bbf;
   color: #ffffff;
 }
 
 .button.secondary {
+  font-family: "Roboto" sans-serif;
   background-color: #f4f4fd;
   color: var(--accent-color);
 }
