@@ -9,13 +9,11 @@ body {
   color: var(--primary-text-color);
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
-  letter-spacing: 0.02em;
-  font-weight: 400;
 }
 
 /* logo style */
 .logo {
-  color: #2e2f42;
+  color: var(--title-text-color);
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -31,15 +29,17 @@ body {
 /* for all list */
 .list {
   list-style: none;
+  text-decoration: none;
 }
 
 /* site-nav style */
 .site-nav.link {
-  color: #2e2f42;
+  color: var(--title-text-color);
   text-decoration: none;
   font-weight: 500;
-  font-size: 1.5;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -57,6 +57,7 @@ a.current {
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
+  letter-spacing: 0.02em;
   font-style: normal;
 }
 .contact-list a:hover,
@@ -72,6 +73,7 @@ a.current {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero {
@@ -86,6 +88,7 @@ a.current {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
 /* values */
@@ -94,6 +97,7 @@ a.current {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .section {
   background-color: #e5e5e5;
@@ -106,6 +110,7 @@ a.current {
 .value-list.text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* team */
 .team-title {
@@ -114,12 +119,14 @@ a.current {
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .team-text {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /* footer */
@@ -142,6 +149,7 @@ a.footer-logo {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* buttoms style */
 
@@ -171,4 +179,22 @@ a.footer-logo {
 .button.secondary {
   background-color: #f4f4fd;
   color: var(--accent-color);
+}
+
+/* portfolio style */
+.card-title {
+  color: var(--title-text-color);
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.card-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
