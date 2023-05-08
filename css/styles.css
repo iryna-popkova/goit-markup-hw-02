@@ -192,15 +192,10 @@ a.footer-logo {
   color: var(--accent-color);
   background-color: var(--additional-color);
 }
-.button.primary:hover:hover,
-.button.primary:focus:focus {
+.button.primary.first:hover,
+.button.primary.first:focus {
   color: #ffffff;
   background-color: #404bbf;
-}
-
-.button.secondary {
-  background-color: #f4f4fd;
-  color: var(--accent-color);
 }
 
 /* portfolio style */
