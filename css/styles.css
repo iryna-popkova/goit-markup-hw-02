@@ -161,6 +161,7 @@ a.footer-logo {
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .button.order {
   color: #ffffff;
