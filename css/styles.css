@@ -192,8 +192,8 @@ a.footer-logo {
   color: var(--accent-color);
   background-color: var(--additional-color);
 }
-.button.primary.first:hover,
-.button.primary.first:focus {
+.button.primary:hover,
+.button.primary:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
