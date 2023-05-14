@@ -111,6 +111,8 @@ a.current {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .section.team {
@@ -218,7 +220,7 @@ a.footer-logo {
   margin-left: auto;
   margin-right: auto;
   width: 972px;
-  background-color: ffffff;
+  background-color: var(--standart-color);
 }
 
 .page-header {
@@ -233,4 +235,17 @@ a.footer-logo {
 .site-nav {
   padding: 0;
   margin: 0;
+}
+
+.values {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 0;
+  width: 972px;
+}
+
+.container {
+  background-color: var(--standart-color);
 }
