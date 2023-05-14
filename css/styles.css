@@ -73,6 +73,9 @@ a.current {
 }
 .contact-list {
   font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+  width: 972px;
 }
 /* hero */
 .main-title {
@@ -80,12 +83,14 @@ a.current {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
+  margin: 0;
+  padding: 0;
 }
 
 .hero {
   background-color: var(--title-text-color);
+  text-align: center;
 }
 
 /* sections */
@@ -175,6 +180,7 @@ a.footer-logo {
 .button.order {
   color: var(--standart-color);
   background-color: var(--accent-color);
+  margin-top: 48px;
 }
 .button.order:hover,
 .button.order:focus {
@@ -206,4 +212,25 @@ a.footer-logo {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.nav-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 972px;
+  background-color: ffffff;
+}
+
+.page-header {
+  background-color: var(--standart-color);
+}
+
+.contacts-container {
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav {
+  padding: 0;
+  margin: 0;
 }
