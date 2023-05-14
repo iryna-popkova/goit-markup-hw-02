@@ -73,9 +73,6 @@ a.current {
 }
 .contact-list {
   font-style: normal;
-  margin-left: auto;
-  margin-right: auto;
-  width: 972px;
 }
 /* hero */
 .main-title {
@@ -91,6 +88,7 @@ a.current {
 .hero {
   background-color: var(--title-text-color);
   text-align: center;
+  height: 600px;
 }
 
 /* sections */
@@ -102,6 +100,9 @@ a.current {
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.02em;
+  margin-top: 0;
+  margin-bottom: 72px;
+  padding: 0;
 }
 
 /* values */
@@ -112,23 +113,48 @@ a.current {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 0;
+}
+
+.work-examples {
+  margin: 0;
+  padding: 0;
 }
 
 .section.team {
   background-color: var(--additional-color);
 }
 
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  margin: 0;
+  padding-top: 120px;
+}
+
 .team-card {
   background: var(--standart-color);
+  width: 264px;
+  height: 380px;
 }
+.team-list {
+  padding: 0;
+  margin: 0;
+}
+
 .text-value {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 8px;
 }
 /* team */
-.team-title {
+.team-name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
@@ -217,9 +243,6 @@ a.footer-logo {
 }
 
 .nav-container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 972px;
   background-color: var(--standart-color);
 }
 
@@ -238,14 +261,13 @@ a.footer-logo {
 }
 
 .values {
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 0;
   padding: 0;
-  margin-bottom: 0;
-  width: 972px;
+  margin-bottom: 120px;
 }
 
 .container {
-  background-color: var(--standart-color);
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
 }
