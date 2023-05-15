@@ -121,10 +121,6 @@ a.current {
   padding: 0;
 }
 
-.section.team {
-  background-color: var(--additional-color);
-}
-
 .team-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -134,7 +130,6 @@ a.current {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   margin: 0;
-  padding-top: 120px;
 }
 
 .team-card {
@@ -162,7 +157,8 @@ a.current {
   text-align: center;
   letter-spacing: 0.02em;
   padding: 0;
-  margin: 0;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .team-text {
@@ -171,15 +167,19 @@ a.current {
   text-align: center;
   letter-spacing: 0.02em;
   padding: 0;
-  margin: 0;
+  margin-bottom: 32p;
+  margin-top: 0;
 }
 
+.team-section {
+  background-color: var(--additional-color);
+}
 /* footer */
 .footer-style {
   background-color: var(--title-text-color);
   color: var(--additional-color);
 }
-a.footer-logo {
+.footer-logo {
   color: var(--accent-color);
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -189,6 +189,7 @@ a.footer-logo {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .footer-accent {
   color: var(--additional-color);
 }
@@ -198,6 +199,8 @@ a.footer-logo {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin: 0;
+  padding: 0;
 }
 /* buttoms style */
 
@@ -238,7 +241,8 @@ a.footer-logo {
   line-height: 1.2;
   letter-spacing: 0.02em;
   padding: 0;
-  margin: 0;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .card-text {
@@ -247,17 +251,11 @@ a.footer-logo {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 0;
-  margin: 0;
+  margin-bottom: 32p;
+  margin-top: 0;
 }
 
-.nav-container {
-  background-color: var(--standart-color);
-}
-
-.page-header {
-  background-color: var(--standart-color);
-}
-
+/*  li and h padding nd margins */
 .contacts-container {
   padding: 0;
   margin: 0;
@@ -269,15 +267,8 @@ a.footer-logo {
 }
 
 .values {
-  margin-top: 0;
+  margin: 0;
   padding: 0;
-  margin-bottom: 120px;
-}
-
-.container {
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .portfolio-list {
@@ -287,5 +278,25 @@ a.footer-logo {
 
 .buttoms-list {
   padding: 0;
-  margin: 0;
+  margin-bottom: 72px;
+  margin-top: 0;
+}
+
+/* main containers and sections */
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.section.no-padding {
+  padding-top: 120px;
+  padding-bottom: 0;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
