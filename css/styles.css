@@ -161,6 +161,8 @@ a.current {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  padding: 0;
+  margin: 0;
 }
 
 .team-text {
@@ -168,6 +170,8 @@ a.current {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+  padding: 0;
+  margin: 0;
 }
 
 /* footer */
@@ -233,6 +237,8 @@ a.footer-logo {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding: 0;
+  margin: 0;
 }
 
 .card-text {
@@ -240,6 +246,8 @@ a.footer-logo {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-container {
@@ -270,4 +278,14 @@ a.footer-logo {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.portfolio-list {
+  padding: 0;
+  margin: 0;
+}
+
+.buttoms-list {
+  padding: 0;
+  margin: 0;
 }
