@@ -41,6 +41,9 @@ body {
 
 /* site-nav style */
 .link-navigation {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   color: var(--title-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -59,8 +62,23 @@ a.current {
   color: var(--accent-color);
 }
 
+.site-nav {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-left: 76px;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 40px;
+}
+
 /* contacts */
 .link-contacts {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
@@ -73,7 +91,26 @@ a.current {
 }
 .contact-list {
   font-style: normal;
+  margin-left: auto;
 }
+
+.contacts-box {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.contacts-box .item + .item {
+  margin-left: 40px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 /* hero */
 .main-title {
   color: var(--standart-color);
@@ -88,7 +125,6 @@ a.current {
 .hero {
   background-color: var(--title-text-color);
   text-align: center;
-  height: 600px;
 }
 
 /* sections */
@@ -106,6 +142,20 @@ a.current {
 }
 
 /* values */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .title {
   color: var(--title-text-color);
   font-weight: 500;
@@ -115,11 +165,35 @@ a.current {
   margin-top: 0;
   margin-bottom: 0;
 }
+.text-value {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-top: 8px;
+}
+
+.values {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.values .item + .item {
+  margin-left: 24px;
+}
+
+/* what we are doing */
 
 .work-examples {
+  display: flex;
   margin: 0;
   padding: 0;
 }
+.work-examples .item + .item {
+  margin-left: 24px;
+}
+
+/* our team */
 
 .team-title {
   color: var(--title-text-color);
@@ -135,20 +209,12 @@ a.current {
 .team-card {
   background: var(--standart-color);
   width: 264px;
-  height: 380px;
 }
 .team-list {
   padding: 0;
   margin: 0;
 }
 
-.text-value {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-top: 8px;
-}
-/* team */
 .team-name {
   color: var(--title-text-color);
   font-weight: 500;
@@ -174,6 +240,7 @@ a.current {
 .team-section {
   background-color: var(--additional-color);
 }
+
 /* footer */
 .footer-style {
   background-color: var(--title-text-color);
@@ -256,20 +323,6 @@ a.current {
 }
 
 /*  li and h padding nd margins */
-.contacts-container {
-  padding: 0;
-  margin: 0;
-}
-
-.site-nav {
-  padding: 0;
-  margin: 0;
-}
-
-.values {
-  margin: 0;
-  padding: 0;
-}
 
 .portfolio-list {
   padding: 0;
@@ -288,8 +341,8 @@ a.current {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .section.no-padding {
   padding-top: 120px;
