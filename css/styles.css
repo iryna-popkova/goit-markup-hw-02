@@ -103,7 +103,7 @@ a.current {
 .contacts-box .item + .item {
   margin-left: 40px;
 }
-.navigation {
+.header-container {
   display: flex;
   align-items: center;
 }
