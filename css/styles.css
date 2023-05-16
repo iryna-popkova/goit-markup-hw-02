@@ -5,6 +5,7 @@
   --additional-color: #f4f4fd;
   --standart-color: #ffffff;
   --focus-color: #404bbf;
+  --border-color: #e7e9fc;
 }
 
 /* body style */
@@ -87,7 +88,7 @@ a.current {
 }
 .link-contacts:hover,
 .link-contacts:focus {
-  color: #404bbf;
+  color: var(--focus-color);
 }
 .contact-list {
   font-style: normal;
@@ -108,7 +109,7 @@ a.current {
 }
 
 .page-header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--border-color);
 }
 
 /* hero */
@@ -273,6 +274,7 @@ a.current {
   margin: 0;
   margin-top: 17.5px;
   padding: 0;
+  width: 264px;
 }
 /* buttoms style */
 
@@ -283,7 +285,12 @@ a.current {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 12px 24px;
+  text-align: center;
 }
+
 .button.order {
   color: var(--standart-color);
   background-color: var(--accent-color);
@@ -295,9 +302,22 @@ a.current {
   background-color: var(--focus-color);
 }
 
+.buttoms-list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: 72px;
+  margin-top: 0;
+}
+
+.buttoms-list .item + .item {
+  margin-left: 24px;
+}
+
 .button.primary {
   color: var(--accent-color);
   background-color: var(--additional-color);
+  border: 1px solid var(--border-color);
 }
 .button.primary:hover,
 .button.primary:focus {
@@ -334,20 +354,13 @@ a.current {
   margin: 0;
 }
 
-.buttoms-list {
-  padding: 0;
-  margin-bottom: 72px;
-  margin-top: 0;
-}
-
 /* main containers and sections */
 
 .container {
   width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .section.no-padding {
   padding-top: 120px;
@@ -357,4 +370,8 @@ a.current {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+img {
+  display: block;
 }
