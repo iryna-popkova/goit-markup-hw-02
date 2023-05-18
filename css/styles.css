@@ -362,12 +362,11 @@ a.current {
 .portfolio-item {
   margin-right: 24px;
   margin-bottom: 48px;
+  border-bottom: 1px solid var(--border-color);
 }
 .portfolio-item:nth-child(3n) {
   margin-right: 0;
-}
-.portfolio-item:nth-child(n + 3) {
-  margin-bottom: 0;
+  margin-bottom: 48px;
 }
 
 /* main containers and sections */
