@@ -204,7 +204,7 @@ a.current {
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.02em;
-  margin: 0;
+  margin-bottom: 72px;
 }
 
 .team-card {
@@ -212,8 +212,13 @@ a.current {
   width: 264px;
 }
 .team-list {
+  display: flex;
   padding: 0;
   margin: 0;
+}
+
+.team-list .team-card + .team-card {
+  margin-left: 24px;
 }
 
 .team-name {
@@ -347,11 +352,22 @@ a.current {
   margin-top: 0;
 }
 
-/*  li and h padding nd margins */
-
 .portfolio-list {
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  margin-right: 24px;
+  margin-bottom: 48px;
+}
+.portfolio-item:nth-child(3n) {
+  margin-right: 0;
+}
+.portfolio-item:nth-child(n + 3) {
+  margin-bottom: 0;
 }
 
 /* main containers and sections */
@@ -359,9 +375,10 @@ a.current {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
 .section.no-padding {
   padding-top: 120px;
   padding-bottom: 0;
