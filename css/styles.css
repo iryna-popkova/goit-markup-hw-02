@@ -112,6 +112,11 @@ a.current {
   border-bottom: 1px solid var(--border-color);
 }
 
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
 /* hero */
 .main-title {
   color: var(--standart-color);
